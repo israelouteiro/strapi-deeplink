@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/mobile/deeplink",
+            "handler": "Mobile.deeplink",
+            "config": {
+                "policies": [],
+                "prefix": "",
+                "description": "Redirect to app deeplink with redirect params"
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/mobile/store",
+            "handler": "Mobile.store",
+            "config": {
+                "policies": [],
+                "prefix": "",
+                "description": "Redirect to app store"
+            }
+        }
+    ]
+}
