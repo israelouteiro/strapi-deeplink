@@ -18,10 +18,10 @@ You are ready to go!
 to redirect to app deeplink with redirect params, so this call:
 
 ```es6
-    `${ STRAPI_ENDPOINT }/mobile/deeplink?redirect=app/screen/path/with/params`
+    `${ STRAPI_ENDPOINT }mobile/deeplink?redirect=app/screen/path/with/params`
 ```
 
-will redirect to this deeplink:
+will be redirect to this deeplink:
 
 ```es6
     `${ APP_DEEPLINK }app/screen/path/with/params`
